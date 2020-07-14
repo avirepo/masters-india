@@ -1,0 +1,10 @@
+.table-cell {
+    position: relative;
+}
+.table-cell-value-wrap {
+    padding: 5px 12px;
+}
+
+[data-theme='dark'] .table-row:hover .table-cell-value-wrap {
+    border: 1px solid #434343;
+}
